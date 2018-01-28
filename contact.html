@@ -12,13 +12,17 @@
 </head>
 
 <body>
+    <!-- wrapper to set footer flush to bottom -->
     <div class="wrapper">
+
+        <!-- header/navbar -->
         <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
                     <a class="navbar-brand pull-left" id="logo" href="index.html">Michael Erlander</a>
                 </div>
 
+                <!-- navbar links -->
                 <ul class="nav navbar-nav navbar-right navbar-brand">
                     <li class="li-left">
                         <a href="index.html">About</a>
@@ -33,51 +37,56 @@
             </div>
         </nav>
 
-        <div class="container-fluid">
+        <!-- container for content -->
+        <div class="container">
+
+            <!-- main section and sidebar row -->
             <div class="row">
-                <div class="container">
-                    <div class="row">
-                        <section class="main-section col-xs-8">
-                            <h1>Contact</h1>
 
-                            <form>
-                                <div class="form-group">
-                                    <label for="inputName">Name</label>
-                                    <input type="name" class="form-control" id="inputName" placeholder="First Last">
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputEmail">Email Address</label>
-                                    <input type="email" class="form-control" id="inputEmail" placeholder="Example@Email.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="message">Message</label>
-                                    <textarea class="form-control" rows="6"></textarea>
-                                </div>
-                                <button type="submit" class="custom-btn">Submit</button>
+                <!-- main section column -->
+                <section class="main-section col-xs-8">
+                    <h1>Contact</h1>
 
-                        </section>
+                    <!-- contact form -->
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Name</label>
+                            <input type="name" class="form-control" id="inputName" placeholder="First Last">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email Address</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Example@Email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" rows="6"></textarea>
+                        </div>
+                        <button type="submit" class="custom-btn">Submit</button>
+                    </form>
+                </section>
 
-                        <section class="sidebar col-xs-3 pull-right text-left">
-                            <div id="connect">
-                                <h2>Connect with Me</h2>
+                <!-- sidebar column -->
+                <section class="sidebar col-xs-3 pull-right text-left">
+                    <div id="connect">
+                        <h2>Connect with Me</h2>
 
-                                <a href="https://github.com/mrerlander" target="_blank">
-                                    <img src="assets/images/github-128.png" class="social" alt="GitHub" />
-                                </a>
-                                <a href="https://www.linkedin.com/in/michael-erlander/" target="_blank">
-                                    <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" />
-                                </a>
-                                <a href="https://stackexchange.com/users/12382192/m-erlander" target="_blank">
-                                    <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" />
-                                </a>
-                            </div>
-                        </section>
+                        <!-- icon links -->
+                        <a href="https://github.com/mrerlander" target="_blank">
+                            <img src="assets/images/github-128.png" class="social" alt="GitHub" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/michael-erlander/" target="_blank">
+                            <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" />
+                        </a>
+                        <a href="https://stackexchange.com/users/12382192/m-erlander" target="_blank">
+                            <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" />
+                        </a>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     </div>
-    
+
+    <!-- footer row -->
     <footer class="row navbar-inverse">
         <p>
             <span class="glyphicon glyphicon-copyright-mark"></span> Michael Erlander 2018

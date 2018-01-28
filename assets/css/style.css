@@ -106,6 +106,14 @@ footer {
   padding-bottom: 30px;
 }
 
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
 /* portfolio page */
 
 .work {
@@ -130,14 +138,6 @@ footer {
   color: #fff;
   background: #4aaaa5;
   border-bottom: 0;
-}
-
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
 }
 
 /* contact page */
