@@ -1,14 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Document</title>
 </head>
 
 <body>
+    <div class="wrapper">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand pull-left" id="logo" href="index.html">Michael Erlander</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right navbar-brand">
+                    <li class="li-left">
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <section class="main-section col-xs-8">
+                            <h1>Contact</h1>
+
+                            <form>
+                                <div class="form-group">
+                                    <label for="inputName">Name</label>
+                                    <input type="name" class="form-control" id="inputName" placeholder="First Last">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail">Email Address</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Example@Email.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" rows="6"></textarea>
+                                </div>
+                                <button type="submit" class="custom-btn">Submit</button>
+
+                        </section>
+
+                        <section class="sidebar col-xs-3 pull-right text-left">
+                            <div id="connect">
+                                <h2>Connect with Me</h2>
+
+                                <a href="https://github.com/mrerlander" target="_blank">
+                                    <img src="assets/images/github-128.png" class="social" alt="GitHub" />
+                                </a>
+                                <a href="https://www.linkedin.com/in/michael-erlander/" target="_blank">
+                                    <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" />
+                                </a>
+                                <a href="https://stackexchange.com/users/12382192/m-erlander" target="_blank">
+                                    <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" />
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <footer class="row navbar-inverse">
+        <p>
+            <span class="glyphicon glyphicon-copyright-mark"></span> Michael Erlander 2018
+        </p>
+    </footer>
+
 
 </body>
+
+</html>
