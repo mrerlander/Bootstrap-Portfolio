@@ -93,10 +93,11 @@ footer {
   border: 1px solid #ddd;
 }
 
-.social {
+.thumbnail {
   width: 62px;
   height: 62px;
   margin-right: 5px;
+  border: none;
 }
 
 /* main */
